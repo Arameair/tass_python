@@ -35,13 +35,13 @@ if __name__ == "__main__":
 EOF
 fi
 
-# Check if system.sh exists and is executable
-if [ -f "system.sh" ]; then
-    chmod +x system.sh
+# Check if setup.sh exists and is executable
+if [ -f "setup.sh" ]; then
+    chmod +x setup.sh
 else
-    echo "system.sh does not exist. Please create it and try again."
+    echo "setup.sh does not exist. Please create it and try again."
     exit 1
 fi
 
-# Run system.sh
-./system.sh
+# Run setup.sh
+./setup.sh
